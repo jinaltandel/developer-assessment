@@ -1,0 +1,277 @@
+/* line 5, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../usr/local/Cellar/ruby/2.1.1_1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 15, ../sass/screen.scss */
+article {
+  text-rendering: optimizeLegibility;
+  width: 960px;
+  margin: 0 auto;
+  background: white;
+  color: #333333;
+}
+/* line 21, ../sass/screen.scss */
+article a {
+  color: #aa281b;
+}
+/* line 24, ../sass/screen.scss */
+article header {
+  float: left;
+  margin-bottom: 10px;
+}
+/* line 27, ../sass/screen.scss */
+article header img {
+  float: left;
+}
+/* line 30, ../sass/screen.scss */
+article header h1 {
+  font-family: Georgia, serif;
+  float: left;
+  height: 100px;
+  font-size: 45px;
+  line-height: 100px;
+}
+/* line 37, ../sass/screen.scss */
+article header h1::before {
+  content: "| ";
+  color: #eeeeee;
+}
+/* line 43, ../sass/screen.scss */
+article nav {
+  margin-bottom: 10px;
+  width: 960px;
+}
+/* line 46, ../sass/screen.scss */
+article nav ul {
+  background: #aa281b;
+  background-image: linear-gradient(#b02a1a, #a02715);
+  color: #fff;
+  display: table;
+  width: 960px;
+}
+/* line 52, ../sass/screen.scss */
+article nav ul li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-left: 1px solid #a02715;
+}
+/* line 57, ../sass/screen.scss */
+article nav ul li a {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  line-height: 36px;
+}
+/* line 66, ../sass/screen.scss */
+article nav ul li a:active, article nav ul li a:hover, article nav ul li a:focus {
+  text-decoration: underline;
+}
+/* line 70, ../sass/screen.scss */
+article nav ul li:first-of-type {
+  border-left: none;
+}
+/* line 76, ../sass/screen.scss */
+article section#sidebar {
+  float: left;
+  width: 130px;
+  margin-left: 10px;
+  padding: 10px;
+  background: #eee;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+/* line 85, ../sass/screen.scss */
+article section#sidebar h1, article section#sidebar h2 {
+  font-weight: bold;
+}
+/* line 88, ../sass/screen.scss */
+article section#sidebar h1, article section#sidebar h2, article section#sidebar p {
+  margin-bottom: 5px;
+}
+/* line 93, ../sass/screen.scss */
+article section.school {
+  background: white;
+  color: #333333;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 800px;
+}
+/* line 100, ../sass/screen.scss */
+article section.school ul.gallery {
+  float: left;
+  width: 800px;
+  width: 20000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 108, ../sass/screen.scss */
+article section.school ul.gallery li {
+  float: left;
+  width: 800px;
+}
+/* line 111, ../sass/screen.scss */
+article section.school ul.gallery li figure {
+  width: 600px;
+  margin: 0 auto;
+}
+/* line 114, ../sass/screen.scss */
+article section.school ul.gallery li figure img {
+  max-height: 450px;
+  max-width: 600px;
+}
+/* line 118, ../sass/screen.scss */
+article section.school ul.gallery li figure figcaption {
+  height: 20px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+}
+/* line 127, ../sass/screen.scss */
+article section.school .jcarousel-control-prev,
+article section.school .jcarousel-control-next {
+  position: absolute;
+  top: 200px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #888;
+  opacity: .5;
+  color: #eee;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+  font-size: 24px;
+  line-height: 27px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 2px #999;
+  -moz-box-shadow: 0 0 2px #999;
+  box-shadow: 0 0 2px #999;
+}
+/* line 150, ../sass/screen.scss */
+article section.school .jcarousel-control-prev {
+  left: 20px;
+}
+/* line 154, ../sass/screen.scss */
+article section.school .jcarousel-control-next {
+  right: 20px;
+}
+/* line 158, ../sass/screen.scss */
+article section.school .jcarousel-control-prev:hover,
+article section.school .jcarousel-control-next:hover {
+  background: #AAA;
+}
+/* line 163, ../sass/screen.scss */
+article section.school .jcarousel-control-prev:hover span,
+article section.school .jcarousel-control-next:hover span {
+  display: block;
+}
+/* line 168, ../sass/screen.scss */
+article section.school .jcarousel-pagination a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 14px;
+  min-width: 14px;
+  background: #EEE;
+  color: #888;
+  border-radius: 14px;
+  padding: 3px;
+  text-align: center;
+  margin-right: 2px;
+  opacity: .5;
+}
+/* line 183, ../sass/screen.scss */
+article section.school .jcarousel-pagination a.active {
+  background: #888;
+  color: #EEE;
+  opacity: 1;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+/* line 191, ../sass/screen.scss */
+article footer {
+  margin-top: 10px;
+  float: left;
+  width: 944px;
+  background: #eeeeee;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* line 199, ../sass/screen.scss */
+article footer p {
+  font-size: 12px;
+  line-height: 36px;
+}
+
+/*# sourceMappingURL=screen.css.map */
