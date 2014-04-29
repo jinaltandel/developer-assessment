@@ -1,12 +1,3 @@
-<!--
-
-Tasks:
-
-1. Make the page responsive.
-2. Replace image clicks with a popover lightbox.
-3. Replace images with dynamic content retrieved from web. (Optional - Mandatory to be consider for web services developer position)
-
--->
 <?php date_default_timezone_set("Europe/London"); ?>
 <!DOCTYPE html>
 <html>
