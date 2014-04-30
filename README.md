@@ -7,7 +7,9 @@ In this repository you will find a simple HTML page that shows galleries of imag
 
 To help us assess your knowledge and skills, we would like you to add functionality to this page.
 
-We’re interested in how you approached each task as much as the end result, so you’re welcome to submit even if you can’t get it working, or run out of time to complete the assessment.
+If you’re applying for the role of Junior Web Developer or Web Developer, please complete Tasks 1 and 2. If you’d like to be considered for the role of Web Services Developer, or just want to show us what you can do, please also attempt Task 3.
+
+We’re interested in how you approach each task as much as the end result, so you’re welcome to submit even if you can’t get it working, or run out of time to complete the assessment.
 
 If you have any questions, you can reach us at [webteam.jobs@city.ac.uk](mailto:webteam.jobs@city.ac.uk).
 
