@@ -12,9 +12,9 @@ We’re interested in how you approached each task as much as the end result, so
 Stylesheets
 -----------
 
-You can either work with the generated CSS in the /css/ directory, or if you’re familiar with Sass the source is in the /sass/ directory. We don’t mind which you use.
+You can work with either the CSS in the /css/ directory, or if you’re familiar with Sass the source is in the /sass/ directory. We don’t mind which you use.
 
-The stylesheets are generated with [Compass](http://compass-style.org/), a Sass-based framework.
+The Sass source uses the [Compass](http://compass-style.org/) framework.
 
 Task 1: CSS
 -----------
