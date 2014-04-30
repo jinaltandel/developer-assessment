@@ -9,6 +9,8 @@ To help us assess your knowledge and skills, we would like you to add functional
 
 We’re interested in how you approached each task as much as the end result, so you’re welcome to submit even if you can’t get it working, or run out of time to complete the assessment.
 
+If you have any questions, you can reach us at [webteam.jobs@city.ac.uk](mailto:webteam.jobs@city.ac.uk).
+
 Stylesheets
 -----------
 
