@@ -3,18 +3,18 @@ City University London Developer Assessment
 
 https://github.com/CityUniversityLondon/developer-assessment
 
-In this repository you will find a very simple HTML page that shows galleries of images for four of City University London’s schools.
+In this repository you will find a simple HTML page that shows galleries of images for four of City University London’s schools.
 
 To help us assess your knowledge and skills, we would like you to add functionality to this page.
 
 We’re interested in how you approached each task as much as the end result, so you’re welcome to submit even if you can’t get it working, or run out of time to complete the assessment.
 
-Compass
--------
+Stylesheets
+-----------
 
-The stylesheets are generated with [Compass](http://compass-style.org/), a Sass-based framework, from the source in the /sass/ directory.
+You can either work with the generated CSS in the /css/ directory, or if you’re familiar with Sass the source is in the /sass/ directory. We don’t mind which you use.
 
-If you are not familiar with Sass and Compass, we will accept modifications to the generated CSS in the /css/ directory.
+The stylesheets are generated with [Compass](http://compass-style.org/), a Sass-based framework.
 
 Task 1: CSS
 -----------
